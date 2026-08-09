@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { pricing } from '../../data/pricing';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Users, Briefcase, Wind, ChevronDown, ChevronUp, Check, MessageSquare } from 'lucide-react';
+import { Users, Briefcase, Wind, ChevronDown, ChevronUp, Check, MessageSquare, AlertTriangle } from 'lucide-react';
 
 const PopularVehicles = ({ showAll = false }) => {
   // Let's keep track of which vehicle card is expanded
@@ -77,6 +77,8 @@ const PopularVehicles = ({ showAll = false }) => {
                   alt={car.name} 
                   style={{ width: '100%', height: '100%', objectFit: 'contain', padding: '12px', transition: 'transform 0.5s ease' }}
                   className="vehicle-img"
+                  loading="lazy"
+                  decoding="async"
                 />
                 <span style={{
                   position: 'absolute',
@@ -206,10 +208,17 @@ const PopularVehicles = ({ showAll = false }) => {
                               <span style={{ color: 'var(--text-secondary)' }}>Outstation Rate:</span>
                               <span style={{ fontWeight: '600', color: 'var(--text-primary)', textAlign: 'right' }}>{car.outstation}</span>
                             </div>
-                            <div style={{ display: 'flex', alignItems: 'center', gap: '6px', fontSize: '0.8rem', color: 'var(--success-green)', marginTop: '4px' }}>
-                              <Check size={14} />
-                              <span>Includes driver allowance & toll help</span>
-                            </div>
+                            {[1, 2, 3, 4, 5].includes(car.id) ? (
+                              <div style={{ display: 'flex', alignItems: 'center', gap: '6px', fontSize: '0.8rem', color: '#EF4444', marginTop: '6px', fontWeight: 600 }}>
+                                <AlertTriangle size={14} color="#EF4444" />
+                                <span>Toll, parking, night halt & driver allowance NOT included</span>
+                              </div>
+                            ) : (
+                              <div style={{ display: 'flex', alignItems: 'center', gap: '6px', fontSize: '0.8rem', color: 'var(--success-green)', marginTop: '6px', fontWeight: 600 }}>
+                                <Check size={14} color="var(--success-green)" />
+                                <span>Includes driver allowance & toll help</span>
+                              </div>
+                            )}
                           </>
                         )}
                       </div>
@@ -220,6 +229,39 @@ const PopularVehicles = ({ showAll = false }) => {
             </motion.div>
           );
         })}
+      </div>
+
+      {/* Packers & Movers Section */}
+      <div style={{
+        marginTop: '48px',
+        background: 'linear-gradient(135deg, rgba(15, 76, 129, 0.04) 0%, rgba(30, 136, 229, 0.04) 100%)',
+        border: '1.5px dashed rgba(15, 76, 129, 0.3)',
+        borderRadius: '16px',
+        padding: '32px 24px',
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+        textAlign: 'center',
+        gap: '16px'
+      }}>
+        <div style={{ fontSize: '2.5rem', filter: 'drop-shadow(0 4px 6px rgba(0,0,0,0.1))' }}>📦</div>
+        <div>
+          <h3 style={{ fontSize: '1.35rem', fontWeight: '700', color: 'var(--primary-blue)', margin: '0 0 8px 0' }}>Packers & Movers Services Also Available</h3>
+          <p style={{ color: 'var(--text-secondary)', maxWidth: '600px', margin: 0, fontSize: '0.9rem', lineHeight: '1.6' }}>
+            Planning to relocate? We offer reliable, safe, and professional shifting services for homes and offices. Get custom, honest quotes based on your volume and distance.
+          </p>
+        </div>
+        <button 
+          onClick={() => {
+            const text = encodeURIComponent("Hi Vizag Tours & Cabs, I am looking for Packers and Movers services. Please share pricing and details.");
+            window.open(`https://wa.me/918885099940?text=${text}`, '_blank');
+          }}
+          className="btn btn-primary"
+          style={{ padding: '10px 24px', fontSize: '0.9rem', display: 'flex', alignItems: 'center', gap: '8px', border: 'none', cursor: 'pointer' }}
+        >
+          <MessageSquare size={16} />
+          <span>Enquire for Packers & Movers</span>
+        </button>
       </div>
     </div>
   );

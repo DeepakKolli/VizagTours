@@ -20,6 +20,26 @@ import imgSouthIndia from '../assets/Temples/arunachalam-temple.jpg';
 
 export const tours = [
   {
+    id: "araku-1-day",
+    title: "Araku 1 Day Trip",
+    duration: "1 Day",
+    price: "₹4,999",
+    image: araku1DayImg,
+    description: "A quick escape to Araku valley covering the most popular viewpoints.",
+    highlights: [
+      "Damuku view point",
+      "Borra caves",
+      "Katiki waterfalls (up to jeep parking, local vehicles pay by customer)",
+      "Coffee plantation",
+      "Wooden bridge",
+      "Galikonda view point"
+    ],
+    notes: [
+      "Must provide driver food",
+      "No AC in ghat roads"
+    ]
+  },
+  {
     id: "araku-2-days",
     title: "Araku 2 Days Trip",
     duration: "2 Days / 1 Night",
@@ -45,30 +65,10 @@ export const tours = [
     ]
   },
   {
-    id: "araku-1-day",
-    title: "Araku 1 Day Trip",
-    duration: "1 Day",
-    price: "₹4,999",
-    image: araku1DayImg,
-    description: "A quick escape to Araku valley covering the most popular viewpoints.",
-    highlights: [
-      "Damuku view point",
-      "Borra caves",
-      "Katiki waterfalls (up to jeep parking, local vehicles pay by customer)",
-      "Coffee plantation",
-      "Wooden bridge",
-      "Galikonda view point"
-    ],
-    notes: [
-      "Must provide driver food",
-      "No AC in ghat roads"
-    ]
-  },
-  {
     id: "vizag-day-1",
     title: "Vizag Trip - Day 1",
     duration: "9:00 AM to 6:00 PM",
-    price: "₹2,799",
+    price: "₹2,999",
     image: vizagDay1Img,
     description: "Local sightseeing around the beautiful city of Destiny.",
     highlights: [
@@ -77,6 +77,7 @@ export const tours = [
       "Natural arch",
       "Rama Naidu studio",
       "Rushikonda beach",
+      "Tenneti park",
       "Zoo park",
       "Kailash giri",
       "Three museums",
@@ -154,6 +155,8 @@ export const specialPackages = [
       "Cloud valley views",
       "Dense forest trekking",
       "Panoramic ghat road drive",
+      "Kothapalli Waterfalls",
+      "Matsyagundam",
       "Photography paradise",
       "Local tribal area tour"
     ]
@@ -206,7 +209,7 @@ export const templePackages = [
   },
   {
     id: "srikakulam",
-    title: "Srikakulam Temple Tour",
+    title: "Srikakulam And Vizianagaram Temple Tour",
     image: imgSrikakulam,
     temples: [
       "Arasavalli Sun Temple",
@@ -225,7 +228,8 @@ export const templePackages = [
     temples: [
       "Jagannath Temple, Puri",
       "Konark Sun Temple",
-      "Mukteswar Temple"
+      "Mukteswar Temple",
+      "Chilika Lake"
     ]
   },
   {
@@ -233,8 +237,6 @@ export const templePackages = [
     title: "East Godavari Temple Tour",
     image: imgEastGodavari,
     temples: [
-      "Kasipatnam Venkateswara Swamy Temple",
-      "Suvalingapuram Temple",
       "Annavaram",
       "Dwarapudi",
       "Vadapalli Venkateswara Swamy Temple",
@@ -258,9 +260,7 @@ export const templePackages = [
     image: imgTirupati,
     temples: [
       "Tirupati Balaji Temple (TTD)",
-      "Padmavathi Temple, Tiruchanur",
-      "Kapila Theertham",
-      "Akasaganga Theertham"
+      "Tirumala local sightseeing temple"
     ]
   },
   {

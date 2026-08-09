@@ -17,7 +17,7 @@ export const pricing = [
     araku1: "₹4,999",
     araku2: "₹7,999",
     rental: "₹2,499 (8hr/100km) + ₹249/hr",
-    outstation: "₹13.99/km (min 300km)"
+    outstation: "₹14/km (min 300km)"
   },
   {
     id: 2,
@@ -26,9 +26,9 @@ export const pricing = [
     seats: 6,
     local: "₹3,999",
     araku1: "₹5,999",
-    araku2: "₹9,999",
+    araku2: "₹9,499",
     rental: "₹3,499 (8hr/100km) + ₹299/hr",
-    outstation: "₹17.99/km (min 300km)"
+    outstation: "₹18/km (min 300km)"
   },
   {
     id: 3,
@@ -39,7 +39,7 @@ export const pricing = [
     araku1: "₹6,999",
     araku2: "₹9,999",
     rental: "₹3,499 (8hr/100km) + ₹299/hr",
-    outstation: "₹19.99/km (min 300km)"
+    outstation: "₹20/km (min 300km)"
   },
   {
     id: 4,
@@ -50,7 +50,7 @@ export const pricing = [
     araku1: "₹7,999",
     araku2: "₹13,999",
     rental: "₹4,499 (8hr/100km) + ₹399/hr",
-    outstation: "₹21.99/km (min 300km)"
+    outstation: "₹22/km (min 300km)"
   },
   {
     id: 5,
@@ -61,7 +61,7 @@ export const pricing = [
     araku1: "₹6,999",
     araku2: "₹11,999",
     rental: "₹3,999 (8hr/100km) + ₹349/hr",
-    outstation: "₹19.99/km (min 300km)"
+    outstation: "₹20/km (min 300km)"
   },
   {
     id: 6,
@@ -72,7 +72,7 @@ export const pricing = [
     araku1: "₹9,999",
     araku2: "₹13,999",
     rental: "₹4,999 (8hr/100km) + ₹449/hr",
-    outstation: "₹29.99/km (min 300km)"
+    outstation: "₹30/km (min 300km)"
   },
   {
     id: 7,
@@ -83,7 +83,7 @@ export const pricing = [
     araku1: "₹11,999",
     araku2: "₹15,999",
     rental: "₹6,499 (8hr/100km) + ₹599/hr",
-    outstation: "₹36.99/km (min 300km)"
+    outstation: "₹37/km (min 300km)"
   },
   {
     id: 8,
@@ -94,7 +94,7 @@ export const pricing = [
     araku1: "₹13,999",
     araku2: "₹21,999",
     rental: "₹7,499 (8hr/100km) + ₹699/hr (min 70kms)",
-    outstation: "₹42.99/km (min 300km)"
+    outstation: "₹43/km (min 300km)"
   },
   {
     id: 9,
@@ -105,7 +105,7 @@ export const pricing = [
     araku1: "₹13,999",
     araku2: "₹19,999",
     rental: "₹7,999 (8hr/100km) + ₹749/hr (min 70 kms)",
-    outstation: "₹36.99/km (min 300km)"
+    outstation: "₹37/km (min 300km)"
   },
   {
     id: 10,

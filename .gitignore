@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+HostingGuide.docx
+performance_changes_extracted.md

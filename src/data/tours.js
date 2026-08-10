@@ -134,7 +134,7 @@ export const specialPackages = [
   {
     id: "lambasingi",
     title: "Lambasingi Hill Station",
-    duration: "1 Night / 2 Days",
+    duration: "2 Days/ 1 Night",
     image: imgLambasingi,
     description: "Escape to the 'Kashmir of Andhra Pradesh'. Experience misty hills, chilly climate, and stunning natural beauty.",
     highlights: [
@@ -164,7 +164,7 @@ export const specialPackages = [
   {
     id: "deomali",
     title: "Deomali Peak",
-    duration: "1 Night / 2 Days",
+    duration: "2 Days/ 1 Night",
     image: imgDeomali,
     description: "Visit the highest peak in Odisha, offering stunning views of Eastern Ghats, forests, and rivers below.",
     highlights: [

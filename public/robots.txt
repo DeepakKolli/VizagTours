@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://vizag-tours.vercel.app/sitemap.xml

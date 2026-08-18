@@ -2,28 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <loc>https://vizag-tours.vercel.app/</loc>
+    <loc>https://vizagtours.in/</loc>
   </url>
   <url>
-    <loc>https://vizag-tours.vercel.app/about</loc>
+    <loc>https://vizagtours.in/about</loc>
   </url>
   <url>
-    <loc>https://vizag-tours.vercel.app/services</loc>
+    <loc>https://vizagtours.in/services</loc>
   </url>
   <url>
-    <loc>https://vizag-tours.vercel.app/fleet</loc>
+    <loc>https://vizagtours.in/fleet</loc>
   </url>
   <url>
-    <loc>https://vizag-tours.vercel.app/packages</loc>
+    <loc>https://vizagtours.in/packages</loc>
   </url>
   <url>
-    <loc>https://vizag-tours.vercel.app/routes</loc>
+    <loc>https://vizagtours.in/routes</loc>
   </url>
   <url>
-    <loc>https://vizag-tours.vercel.app/gallery</loc>
+    <loc>https://vizagtours.in/gallery</loc>
   </url>
   <url>
-    <loc>https://vizag-tours.vercel.app/contact</loc>
+    <loc>https://vizagtours.in/contact</loc>
   </url>
 
 </urlset>
+

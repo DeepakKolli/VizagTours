@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://vizag-tours.vercel.app/sitemap.xml
+Sitemap: https://vizagtours.in/sitemap.xml
+

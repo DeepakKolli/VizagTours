@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 
-const SITE_URL = 'https://vizagtours.in';
+const SITE_URL = 'https://www.vizagtours.in';
 
 const SEO = ({ title, description }) => {
   useEffect(() => {

@@ -1,30 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
   <url>
-    <loc>https://vizagtours.in/</loc>
+    <loc>https://www.vizagtours.in/</loc>
   </url>
   <url>
-    <loc>https://vizagtours.in/about</loc>
+    <loc>https://www.vizagtours.in/about</loc>
   </url>
   <url>
-    <loc>https://vizagtours.in/services</loc>
+    <loc>https://www.vizagtours.in/services</loc>
   </url>
   <url>
-    <loc>https://vizagtours.in/fleet</loc>
+    <loc>https://www.vizagtours.in/fleet</loc>
   </url>
   <url>
-    <loc>https://vizagtours.in/packages</loc>
+    <loc>https://www.vizagtours.in/packages</loc>
   </url>
   <url>
-    <loc>https://vizagtours.in/routes</loc>
+    <loc>https://www.vizagtours.in/routes</loc>
   </url>
   <url>
-    <loc>https://vizagtours.in/gallery</loc>
+    <loc>https://www.vizagtours.in/gallery</loc>
   </url>
   <url>
-    <loc>https://vizagtours.in/contact</loc>
+    <loc>https://www.vizagtours.in/contact</loc>
   </url>
-
 </urlset>
-

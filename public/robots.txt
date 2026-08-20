@@ -1,5 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://vizagtours.in/sitemap.xml
+Sitemap: https://www.vizagtours.in/sitemap.xml
 
